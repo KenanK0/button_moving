@@ -9,16 +9,9 @@ function App() {
     // const container = e.target.parentElement;
     // const availableWidth = container.clientWidth - e.target.offsetWidth;
     // const availableHeight = container.clientHeight - e.target.offsetHeight;
-
     // e.target.style.backgroundColor = "purple";
-
     const availableWidth = window.innerWidth - e.target.offsetWidth;
     const availableHeight = window.innerHeight - e.target.offsetHeight;
-    e.target.style.position = "absolute";
-    e.target.style.top = Math.floor(Math.random() * availableHeight) + "px";
-    e.target.style.left = Math.floor(Math.random() * availableWidth) + "px";
-
-    // e.target.style.backgroundColor = "purple";
     e.target.style.position = "absolute";
     e.target.style.top = Math.floor(Math.random() * availableHeight) + "px";
     e.target.style.left = Math.floor(Math.random() * availableWidth) + "px";
