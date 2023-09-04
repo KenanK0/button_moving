@@ -23,7 +23,7 @@ function App() {
       <button>Yes</button>
       <br/>
       <br/>
-      <button onMouseOver={moveIt}>No</button>
+      <button onMouseOver={moveIt} onClick={moveIt} >No</button>
       {/* </div> */}
     </div>
   );
