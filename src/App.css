@@ -5,6 +5,7 @@
   background-color: lightblue;
   min-height: 100vh;
   text-align: center;
+  flex-direction: column;
 }
 
 button{
@@ -19,3 +20,6 @@ button{
   height: 50px;
   border: 1px solid #000;
 }
+/* h1{
+  text-align: center;
+} */

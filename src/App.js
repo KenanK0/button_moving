@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 
 function App() {
@@ -18,8 +18,12 @@ function App() {
   };
   return (
     <div className="App">
+      <h1>Are you gay?</h1>
       {/* <div id="container"> */}
-        <button onMouseOver={moveIt}>Kenan K</button>
+      <button>Yes</button>
+      <br/>
+      <br/>
+      <button onMouseOver={moveIt}>No</button>
       {/* </div> */}
     </div>
   );
